@@ -6,4 +6,5 @@ declare module '@capacitor/core' {
 
 export interface InAppReviewPlugin {
   echo(options: { value: string }): Promise<{ value: string }>;
+  launchReview(options: { value: string }): Promise<{ value: string }>
 }

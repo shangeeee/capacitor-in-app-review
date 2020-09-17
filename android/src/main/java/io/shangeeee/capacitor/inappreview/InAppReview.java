@@ -1,8 +1,5 @@
 package io.shangeeee.capacitor.inappreview;
 
-import android.app.Application;
-
-import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
