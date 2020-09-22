@@ -1,0 +1,3 @@
+`this` has been rewritten to `undefined`
+https://rollupjs.org/guide/en/#error-this-is-undefined
+dist/esm/web.js

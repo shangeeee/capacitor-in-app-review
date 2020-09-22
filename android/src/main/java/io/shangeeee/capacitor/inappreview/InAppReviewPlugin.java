@@ -11,12 +11,14 @@ import com.google.android.play.core.review.ReviewManagerFactory;
 import com.google.android.play.core.tasks.OnCompleteListener;
 import com.google.android.play.core.tasks.Task;
 
+
+//https://github.com/ionic-team/capacitor/issues/1123
 @NativePlugin
-public class InAppReview extends Plugin {
+public class InAppReviewPlugin extends Plugin {
 
    private ReviewManager manager;
 
-   InAppReview() {
+   InAppReviewPlugin() {
        super();
        manager =  ReviewManagerFactory.create(  this.getContext());
    }
